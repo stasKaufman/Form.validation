@@ -1,0 +1,45 @@
+
+form {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top:1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus {
+    border-color:#000;
+}
+
+.button {
+    padding-left: 94px;
+}
+
+div button {
+    cursor: pointer;
+}
+
+#vali1, #vali2 {
+    color:red;
+}
+
+
+
+
