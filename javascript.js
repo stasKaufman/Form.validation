@@ -30,23 +30,23 @@ function checkStringFirstName() {
         if(!(numCheck.test(Pword))) {
             alert("Password must contain at least one number (0-9)");
             document.getElementById("pword").focus();
-         //   return false;
+            return false;
         }
         if (!(lowerWordCheck.test(Pword))) {
             alert("Password must contain at least one lowercase letter");
             document.getElementById("pword").focus();
-         //   return false;
+            return false;
         }
         if(!(upperWordCheck.test(Pword))) {
             alert("Password must contain at least one uppercase letter");
             document.getElementById("pword").focus();
-         //   return false;
+            return false;
         }
         var userName = document.getElementById("uname").value;
         var email = document.getElementById("email").value;
         window.location.assign("ThanksYouPage.html?email=" + email + "&username=" + userName);
 
-       // return true;
+        return true;
     }
 
     function ParseURLParameter() {

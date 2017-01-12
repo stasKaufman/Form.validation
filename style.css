@@ -36,7 +36,7 @@ div button {
     cursor: pointer;
 }
 
-#vali1, #vali2 {
+input + p {
     color:red;
 }
 
