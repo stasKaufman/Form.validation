@@ -1,6 +1,7 @@
 
 form {
     margin: auto;
+    margin-top:10px;
     width: 400px;
     padding: 1em;
     border: 1px solid #ccc;
@@ -37,7 +38,7 @@ div button {
 }
 
 input + p {
-    color:red;
+    margin-top: 1%;
 }
 
 
